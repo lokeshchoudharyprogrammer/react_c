@@ -1,13 +1,16 @@
-// App.js
-
 import React from 'react';
-import Math from './Math';
+import CounterApp from './Componet/CounterApp';
 
 const App = () => {
   return (
     <div>
-      <h1>React App with C++</h1>
-      <Math />
+      <CounterApp language="c++" />
+      <CounterApp language="python" />
+      <CounterApp language="ruby" />
+      <CounterApp language="bash" />
+      <CounterApp language="java" />
+      <CounterApp language="php" />
+      <CounterApp language="go" />
     </div>
   );
 };
